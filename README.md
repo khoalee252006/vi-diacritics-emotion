@@ -16,7 +16,8 @@ Consistency Training* (anonymous submission).
 | `results/` | Aggregated results (CSV) behind every table, and word lists |
 | `results/predictions/` | Per-sentence predictions on UIT-VSMEC (validation, test, and test with 25/50/75/100% of diacritics removed): sentence id, gold label, predicted label and class scores |
 
-No dataset text is included. Predictions on ViGoEmotions are not released because its licence prohibits
+No dataset text is included. For ViGoEmotions only the identifiers of the natural-text sentences are released
+(`results/natural/natural_set_ids.csv`); its texts, labels and per-sentence predictions are not, because its licence prohibits
 redistribution.
 
 ## Data (download separately)
