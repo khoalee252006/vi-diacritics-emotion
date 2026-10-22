@@ -1,0 +1,9 @@
+crit,model,delta,ci95_lo,ci95_hi,ci9875_lo,p,pass_margin_-2_ci95,pass_margin_-2_ci9875
+NI1_clean_vs_standard,xlmr,-2.0397,-5.192,0.9882,-6.0426,0.1977,False,False
+NI2_diac100_vs_PS,xlmr,3.3021,0.1967,6.4587,-0.6703,0.0401,True,True
+NI1_clean_vs_standard,phobert,1.1475,-2.1196,4.3286,-3.0349,0.4801,False,False
+NI2_diac100_vs_PS,phobert,4.1782,1.3689,6.969,0.5501,0.0044,True,True
+NI1_clean_vs_standard,visobert,-0.7513,-3.731,2.1527,-4.5867,0.6018,False,False
+NI2_diac100_vs_PS,visobert,-0.593,-3.7058,2.3767,-4.7093,0.6931,False,False
+NI1_clean_vs_standard,cafebert,-0.6295,-3.6057,2.4177,-4.4675,0.673,False,False
+NI2_diac100_vs_PS,cafebert,5.5104,2.2892,8.6351,1.3187,0.0014,True,True

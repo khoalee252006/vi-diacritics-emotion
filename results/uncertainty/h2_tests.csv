@@ -1,0 +1,13 @@
+model,a,b,dAURC,ci_lo,ci_hi,p,p_holm,sig
+cafebert,MI,entropy,1.3839,0.4168,2.2509,0.0025,0.0275,True
+cafebert,MI,MSP,1.4549,0.5366,2.3236,0.0008,0.0096,True
+cafebert,entropy,MSP,0.071,-0.1642,0.3413,0.5742,1.0,False
+xlmr,MI,entropy,0.9435,-0.0469,1.9919,0.068,0.5439,False
+xlmr,MI,MSP,1.0456,0.0576,2.0724,0.0413,0.413,False
+xlmr,entropy,MSP,0.1021,-0.2894,0.4897,0.5975,1.0,False
+phobert,MI,entropy,-0.0002,-0.7018,0.7093,0.9994,1.0,False
+phobert,MI,MSP,0.1391,-0.4989,0.7782,0.6648,1.0,False
+phobert,entropy,MSP,0.1392,-0.1318,0.4057,0.3034,1.0,False
+visobert,MI,entropy,0.2636,-0.1583,0.6846,0.2289,1.0,False
+visobert,MI,MSP,-0.0062,-0.4252,0.4039,0.9777,1.0,False
+visobert,entropy,MSP,-0.2698,-0.5419,-0.0176,0.0434,0.413,False

@@ -1,0 +1,13 @@
+model,lr,valid_MF1,test_MF1,best_epoch,best_lr_theo_valid
+CafeBERT,1e-5,62.69,66.82,18,True
+CafeBERT,2e-5,60.51,61.0,9,False
+CafeBERT,3e-5,59.34,67.38,19,False
+XLM-R,1e-5,56.28,60.21,15,False
+XLM-R,2e-5,57.21,63.12,19,True
+XLM-R,3e-5,54.58,64.02,15,False
+PhoBERT,1e-5,58.22,59.22,9,False
+PhoBERT,2e-5,60.65,60.64,9,True
+PhoBERT,3e-5,58.96,60.17,13,False
+ViSoBERT,1e-5,55.16,59.16,14,False
+ViSoBERT,2e-5,56.21,57.32,15,True
+ViSoBERT,3e-5,55.67,58.73,16,False

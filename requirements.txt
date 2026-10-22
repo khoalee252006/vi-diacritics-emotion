@@ -1,0 +1,18 @@
+# Python 3.12. Đã kiểm tra có wheel Linux x86_64 cho mọi phiên bản dưới đây (2026-10-09).
+# torch cài riêng trong setup_vast.sh từ index CUDA 12.8:
+#   pip install torch==2.9.1 --index-url https://download.pytorch.org/whl/cu128
+numpy==2.4.4
+pandas==2.3.3
+openpyxl==3.1.5
+PyYAML==6.0.3
+scikit-learn==1.9.0
+scipy==1.17.1
+joblib==1.5.3
+transformers==5.10.2
+tokenizers==0.22.2
+huggingface_hub==1.18.0
+safetensors==0.8.0
+sentencepiece==0.2.2
+protobuf==6.33.6
+py_vncorenlp==0.1.4
+pyjnius==1.7.0

@@ -1,0 +1,14 @@
+# datasets and derived text are never committed (licences)
+dataset/
+results/natural/*.pkl
+# model weights, caches, environments, logs
+**/checkpoint/
+results/cache/
+tools/
+.hf_cache/
+.venv/
+.env.sh
+__pycache__/
+*.pyc
+*.log
+*.tgz

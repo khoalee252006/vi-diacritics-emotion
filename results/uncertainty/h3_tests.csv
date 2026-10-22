@@ -1,0 +1,13 @@
+level,model,outcome,term,estimate,ci_lo,ci_hi,p,p_holm,sig
+syllable,cafebert,dH,emo:amb,-0.01002,-0.03624,0.01621,0.45406,1.0,False
+syllable,xlmr,dH,emo:amb,0.01392,-0.01206,0.03989,0.29379,1.0,False
+syllable,phobert,dH,emo:amb,0.01556,-0.01141,0.04254,0.25817,1.0,False
+syllable,visobert,dH,emo:amb,0.01152,-0.00912,0.03215,0.27389,1.0,False
+sentence,cafebert,dH,amb_emo-rand,0.02339,-0.01154,0.05862,0.19188,0.9594,False
+sentence,cafebert,dH,amb_emo-ambother,0.02903,-0.00721,0.0656,0.11419,0.91351,False
+sentence,xlmr,dH,amb_emo-rand,0.05044,0.01118,0.08994,0.0129,0.15478,False
+sentence,xlmr,dH,amb_emo-ambother,0.0446,0.00338,0.08519,0.0338,0.37176,False
+sentence,phobert,dH,amb_emo-rand,0.02691,-0.00671,0.06224,0.12429,0.91351,False
+sentence,phobert,dH,amb_emo-ambother,0.02881,-0.00875,0.06585,0.13169,0.91351,False
+sentence,visobert,dH,amb_emo-rand,0.03098,-0.00221,0.06247,0.05969,0.53725,False
+sentence,visobert,dH,amb_emo-ambother,0.0337,0.00098,0.06722,0.0477,0.47695,False

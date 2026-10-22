@@ -1,0 +1,2 @@
+run,set,shots,n,acc,mf1,invalid_%,tokens_per_1k,sec_per_call
+gemini-3.5-flash-lite_stripex,diac100,7,693,57.86,52.51,0.14,261798,1.28

@@ -1,0 +1,5 @@
+model,signal,tau,s,valid_mf1_uncgate,valid_mf1_ratiogate,valid_mf1_standard
+cafebert,entropy,9e-05,0.01444,49.90818,51.83248,45.08787
+xlmr,entropy,0.00119,0.05132,47.8368,49.34272,42.84574
+phobert,entropy,0.00191,0.04885,46.02549,49.06208,39.93192
+visobert,entropy,0.00075,0.54185,50.97699,51.36042,46.47697

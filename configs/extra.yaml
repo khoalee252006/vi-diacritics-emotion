@@ -1,0 +1,57 @@
+# Đợt bổ sung, chạy SAU pipeline chính 20 epoch, trên cùng máy vast. Kết quả nằm chung results/ nhưng ở thư mục
+# thí nghiệm riêng (results/b1_*/, results/b2_*/), không đụng run nào của rq1/rq3/rq4.
+#   bash run_followup.sh
+# Chỉ đổi những tham số bài gốc ghi rõ; mọi tham số khác giữ như base.yaml (warmup 10%, weight decay 0.01, max_len 128...).
+_base_: base.yaml
+
+experiments:
+  # B1. Tái lập cấu hình bài gốc trong pipeline của mình: chênh lệch với số công bố do cấu hình train hay do dữ liệu?
+  b1_visobert_paper:        # ViSoBERT (Nguyen et al., 2023, tr.4): batch 40, max_len 128, lr 2e-5, 10 epoch, chọn epoch tốt nhất
+    train_data: vsmec
+    train_noise: [none]
+    classic_models: []
+    plm_models: [visobert]
+    preps: [P0]
+    max_seeds: 3
+    eval_noise: false
+    eval_dictnorm: false
+    eval_vigo: false
+    keep_checkpoint: false
+    train: {batch_size: 40, epochs: 10, lr: 2.0e-5}
+  b1_phobert_smtce:         # SMTCE (Nguyen et al., 2022, Bảng 6, tr.7): PhoBERT trên VSMEC batch 8, 2 epoch; lr không ghi.
+    train_data: vsmec       # SMTCE có chuyển emoji thành chữ, nên dùng P1.
+    train_noise: [none]
+    classic_models: []
+    plm_models: [phobert]
+    preps: [P1]
+    max_seeds: 3
+    eval_noise: false
+    eval_dictnorm: false
+    eval_vigo: false
+    keep_checkpoint: false
+    train: {batch_size: 8, epochs: 2}
+  # B2. Độ nhạy theo learning rate (khoảng Mosbach et al., 2021 dò: 1e-5 đến 3e-5, tr.13-14), 20 epoch, 1 seed, P0.
+  b2_lr1e5:
+    train_data: vsmec
+    train_noise: [none]
+    classic_models: []
+    plm_models: [visobert, phobert, xlmr, cafebert]
+    preps: [P0]
+    max_seeds: 1
+    eval_noise: false
+    eval_dictnorm: false
+    eval_vigo: false
+    keep_checkpoint: false
+    train: {lr: 1.0e-5}
+  b2_lr3e5:
+    train_data: vsmec
+    train_noise: [none]
+    classic_models: []
+    plm_models: [visobert, phobert, xlmr, cafebert]
+    preps: [P0]
+    max_seeds: 1
+    eval_noise: false
+    eval_dictnorm: false
+    eval_vigo: false
+    keep_checkpoint: false
+    train: {lr: 3.0e-5}

@@ -1,0 +1,17 @@
+model,outcome,context,rho_I0,rho_ctx,d_rho,ci_lo,ci_hi,p,primary,p_holm,sig
+cafebert,dH,I1_confus,-0.0138,-0.0363,-0.0225,-0.0397,-0.0055,0.0095,True,0.076,False
+cafebert,dH,I2_confus,-0.0138,-0.0065,0.0073,-0.0119,0.0276,0.4783,True,1.0,False
+cafebert,dp,I1_confus,0.0115,-0.0002,-0.0117,-0.0289,0.0057,0.1804,False,,False
+cafebert,dp,I2_confus,0.0115,0.0252,0.0137,-0.0062,0.0333,0.1704,False,,False
+xlmr,dH,I1_confus,0.0037,-0.0139,-0.0176,-0.036,0.0015,0.0715,True,0.5002,False
+xlmr,dH,I2_confus,0.0037,-0.0122,-0.0159,-0.0355,0.0051,0.1279,True,0.6397,False
+xlmr,dp,I1_confus,0.0167,-0.0032,-0.0198,-0.0369,-0.0015,0.028,False,,False
+xlmr,dp,I2_confus,0.0167,0.0221,0.0054,-0.0177,0.0273,0.6332,False,,False
+phobert,dH,I1_confus,0.0188,0.0014,-0.0174,-0.0359,0.0021,0.0735,True,0.5002,False
+phobert,dH,I2_confus,0.0188,0.0179,-0.0009,-0.0207,0.0182,0.9255,True,1.0,False
+phobert,dp,I1_confus,0.0279,0.0108,-0.0171,-0.0334,0.0003,0.048,False,,False
+phobert,dp,I2_confus,0.0279,0.0426,0.0147,-0.0049,0.0333,0.1474,False,,False
+visobert,dH,I1_confus,-0.0016,-0.0037,-0.002,-0.0202,0.0159,0.8346,True,1.0,False
+visobert,dH,I2_confus,-0.0016,0.0139,0.0155,-0.0042,0.0372,0.1389,True,0.6397,False
+visobert,dp,I1_confus,0.0218,0.0103,-0.0115,-0.0292,0.0063,0.2079,False,,False
+visobert,dp,I2_confus,0.0218,0.0343,0.0126,-0.0068,0.0322,0.2139,False,,False

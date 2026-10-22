@@ -1,0 +1,43 @@
+# Smoke test trên CPU: 200 câu mỗi split, 1 epoch, model nhỏ, 2 seed (để stats chạy được).
+_base_: base.yaml
+
+paths:
+  results_dir: results_smoke
+  noise_dir: results_smoke/noise
+  cache_dir: results_smoke/cache
+
+device: cpu
+limit_n: 200
+seeds: [42, 43]
+
+train:
+  epochs: 1
+  fp16: false
+  eval_batch_size: 32
+
+tfidf:
+  grid:
+    ngram_range: [[1, 2]]
+    min_df: [1]
+    sublinear_tf: [true]
+    C: [1.0]
+    class_weight: [null, balanced]
+
+experiments:
+  rq1:
+    plm_models: [visobert, phobert]
+  rq3_aug:
+    plm_models: [visobert]
+    classic_models: [lr]
+    max_seeds: 2
+  rq3_matrix:
+    plm_models: [visobert]
+    train_noise: [diac, typo]
+    max_seeds: 1
+  rq4_ceiling:
+    plm_models: [visobert]
+    classic_models: [lr]
+    max_seeds: 1
+
+stats:
+  n_boot: 500

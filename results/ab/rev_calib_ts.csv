@@ -1,0 +1,17 @@
+model,system,set,T_mean,ECE_raw,ECE_ts,conf_wrong_ts
+cafebert,standard,test,3.894,29.467,7.082,0.622
+cafebert,standard,diac100,3.894,55.254,25.108,0.613
+cafebert,dualview,test,2.515,23.29,5.589,0.588
+cafebert,dualview,diac100,2.515,31.88,11.259,0.594
+xlmr,standard,test,3.582,30.564,6.671,0.583
+xlmr,standard,diac100,3.582,56.712,23.579,0.574
+xlmr,dualview,test,1.803,20.332,5.952,0.555
+xlmr,dualview,diac100,1.803,27.43,9.859,0.561
+phobert,standard,test,2.787,30.254,5.884,0.607
+phobert,standard,diac100,2.787,54.128,25.89,0.573
+phobert,dualview,test,1.533,16.462,6.025,0.574
+phobert,dualview,diac100,1.533,26.605,13.334,0.586
+visobert,standard,test,3.621,31.967,6.455,0.565
+visobert,standard,diac100,3.621,47.645,15.531,0.544
+visobert,dualview,test,2.271,22.929,6.305,0.534
+visobert,dualview,diac100,2.271,29.186,8.679,0.547

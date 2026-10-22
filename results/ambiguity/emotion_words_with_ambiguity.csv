@@ -1,0 +1,351 @@
+class,rank,word,coef,key,count,p_given_key,confus,key_entropy,key_n_forms,has_diacritic,competitors,in_lexicon
+Enjoyment,1,cười,6.0108,cuoi,312.0,0.6154,0.3846,1.235,3.0,True,cuối:157 | cưới:38,True
+Enjoyment,2,cưng,4.3719,cung,58.0,0.0258,0.9742,0.987,7.0,True,cũng:1819 | cùng:305 | cung:25 | cứng:24 | củng:17 | cúng:4,True
+Enjoyment,3,yêu,3.9087,yeu,605.0,0.9084,0.0916,0.479,3.0,True,yếu:56 | yeu:5,True
+Enjoyment,4,haha,3.7924,haha,72.0,1.0,0.0,-0.0,1.0,False,,True
+Enjoyment,5,vui,3.5805,vui,269.0,0.9853,0.0147,0.11,2.0,False,vùi:4,True
+Enjoyment,6,hay,3.0922,hay,900.0,0.8499,0.1501,0.61,2.0,False,hãy:159,True
+Enjoyment,7,dễ,3.0349,de,168.0,0.1136,0.8864,1.683,14.0,True,để:1005 | đề:167 | đẻ:53 | đế:19 | đe:15 | đè:11 | dê:8 | dể:7 | de:7 | dè:6 | dẽ:5 | đệ:5 | đê:3,True
+Enjoyment,8,kkk,2.9509,kkk,56.0,1.0,0.0,-0.0,1.0,False,,True
+Enjoyment,9,thích,2.4997,thich,321.0,1.0,0.0,-0.0,1.0,True,,True
+Enjoyment,10,đẹp,2.4576,dep,396.0,0.9062,0.0938,0.505,3.0,True,dẹp:35 | dép:6,True
+Enjoyment,11,xinh,2.3596,xinh,135.0,1.0,0.0,-0.0,1.0,False,,True
+Enjoyment,12,chuẩn,2.288,chuan,149.0,1.0,0.0,-0.0,1.0,True,,True
+Enjoyment,13,anh,2.1456,anh,1141.0,0.8081,0.1919,0.839,3.0,False,ảnh:220 | ánh:51,True
+Enjoyment,14,hihi,2.1441,hihi,27.0,1.0,0.0,-0.0,1.0,False,,True
+Enjoyment,15,phúc,2.0858,phuc,141.0,0.613,0.387,1.263,4.0,True,phục:74 | phức:12 | phuc:3,True
+Enjoyment,16,ơn,2.073,on,585.0,0.7916,0.2084,1.072,6.0,True,ổn:98 | on:22 | ôn:20 | ớn:8 | ồn:6,True
+Enjoyment,17,phim,2.0675,phim,337.0,0.9883,0.0117,0.092,2.0,False,phím:4,True
+Enjoyment,18,tuyệt,2.0147,tuyet,123.0,0.8662,0.1338,0.667,3.0,True,tuyết:15 | tuyet:4,True
+Enjoyment,19,phê,1.8521,phe,32.0,0.7619,0.2381,1.002,3.0,True,phe:7 | phế:3,True
+Enjoyment,20,ấm,1.8037,am,46.0,0.2875,0.7125,1.902,5.0,True,ám:65 | âm:36 | ầm:8 | am:5,True
+Enjoyment,21,may,1.7244,may,223.0,0.1483,0.8517,1.765,5.0,False,mấy:686 | mày:476 | máy:112 | mây:7,True
+Enjoyment,22,xem,1.7231,xem,690.0,1.0,0.0,-0.0,1.0,False,,True
+Enjoyment,23,tốt,1.7166,tot,376.0,0.9817,0.0183,0.132,2.0,True,tột:7,True
+Enjoyment,24,crush,1.6998,crush,45.0,1.0,0.0,-0.0,1.0,False,,True
+Enjoyment,25,kkkk,1.5797,kkkk,27.0,1.0,0.0,-0.0,1.0,False,,True
+Enjoyment,26,đáng,1.5648,dang,289.0,0.2776,0.7224,2.334,15.0,True,đang:486 | đăng:92 | đặng:32 | đàng:20 | dạng:19 | dàng:18 | đằng:15 | dáng:14 | đắng:13 | đẳng:13 | dang:13 | đảng:10 |,True
+Enjoyment,27,thương,1.5442,thuong,504.0,0.6802,0.3198,1.207,5.0,True,thường:195 | thuong:17 | thượng:16 | thưởng:9,True
+Enjoyment,28,nè,1.5282,ne,187.0,0.7759,0.2241,1.25,6.0,True,né:21 | nể:11 | nề:9 | ne:8 | nê:5,True
+Enjoyment,29,minh,1.5142,minh,156.0,0.0631,0.9369,0.34,2.0,False,mình:2315,True
+Enjoyment,30,thú,1.5003,thu,52.0,0.0767,0.9233,2.32,8.0,True,thứ:317 | thu:125 | thử:70 | thủ:44 | thù:33 | thư:30 | thụ:7,True
+Enjoyment,31,yêuc,1.4778,yeuc,19.0,1.0,0.0,-0.0,1.0,True,,True
+Enjoyment,32,sướng,1.4572,suong,33.0,0.8919,0.1081,0.494,2.0,True,sương:4,True
+Enjoyment,33,mừng,1.4478,mung,118.0,0.9516,0.0484,0.28,2.0,True,mùng:6,True
+Enjoyment,34,mình,1.4437,minh,2315.0,0.9369,0.0631,0.34,2.0,True,minh:156,True
+Enjoyment,35,hạnh,1.4132,hanh,169.0,0.4761,0.5239,1.168,4.0,True,hành:177 | hanh:6 | hãnh:3,True
+Enjoyment,36,per,1.4084,per,537.0,1.0,0.0,-0.0,1.0,False,,True
+Enjoyment,37,trai,1.4057,trai,219.0,0.6134,0.3866,1.501,5.0,False,trải:77 | trái:48 | trại:10 | trãi:3,True
+Enjoyment,38,cảm,1.4029,cam,1082.0,0.8075,0.1925,1.219,10.0,True,cám:74 | cam:59 | cầm:43 | cấm:37 | cắm:16 | câm:9 | cẩm:7 | căm:7 | cằm:6,True
+Enjoyment,39,rất,1.3768,rat,772.0,0.9885,0.0115,0.091,2.0,True,rat:9,True
+Enjoyment,40,kaka,1.3666,kaka,20.0,1.0,0.0,-0.0,1.0,False,,True
+Enjoyment,41,em,1.3339,em,1957.0,0.9924,0.0076,0.071,3.0,False,ẻm:10 | êm:5,True
+Enjoyment,42,kk,1.2881,kk,20.0,1.0,0.0,-0.0,1.0,False,,True
+Enjoyment,43,nấu,1.2784,nau,60.0,1.0,0.0,-0.0,1.0,True,,True
+Enjoyment,44,v,1.2735,v,227.0,1.0,0.0,-0.0,1.0,False,,True
+Enjoyment,45,chúc,1.2682,chuc,292.0,0.7807,0.2193,1.063,4.0,True,chức:37 | chục:36 | chuc:9,True
+Enjoyment,46,cần,1.2514,can,291.0,0.5927,0.4073,2.27,12.0,True,cẩn:38 | cắn:37 | cân:24 | cản:24 | can:18 | cận:14 | cán:14 | căn:14 | cạn:10 | cặn:4 | cằn:3,True
+Enjoyment,47,bé,1.2351,be,286.0,0.7079,0.2921,1.61,8.0,True,bè:42 | bế:22 | bê:16 | be:13 | bể:10 | bề:8 | bẻ:7,True
+Enjoyment,48,vời,1.2178,voi,102.0,0.0995,0.9005,0.698,5.0,True,với:892 | vội:18 | voi:10 | vòi:3,True
+Enjoyment,49,hahaha,1.1932,hahaha,10.0,1.0,0.0,-0.0,1.0,False,,True
+Enjoyment,50,hahahaha,1.1484,hahahaha,5.0,1.0,0.0,-0.0,1.0,False,,True
+Sadness,1,buồn,6.7618,buon,343.0,0.9475,0.0525,0.336,3.0,True,buôn:15 | buon:4,True
+Sadness,2,huhu,5.1854,huhu,71.0,1.0,0.0,-0.0,1.0,False,,True
+Sadness,3,tội,4.5373,toi,202.0,0.1333,0.8667,1.799,8.0,True,tôi:873 | tới:300 | tối:70 | toi:27 | tồi:24 | tỏi:16 | tơi:3,True
+Sadness,4,đau,4.2349,dau,253.0,0.1594,0.8406,2.019,10.0,True,đâu:763 | đầu:414 | đấu:40 | đậu:36 | dâu:28 | dầu:23 | dấu:16 | dau:11 | dẫu:3,True
+Sadness,5,khóc,4.1029,khoc,278.0,1.0,0.0,-0.0,1.0,True,,True
+Sadness,6,khổ,4.0651,kho,186.0,0.4256,0.5744,1.326,5.0,True,khó:227 | khô:11 | kho:9 | khơ:4,True
+Sadness,7,tiếc,3.6249,tiec,106.0,0.9636,0.0364,0.225,2.0,True,tiệc:4,True
+Sadness,8,thương,3.0147,thuong,504.0,0.6802,0.3198,1.207,5.0,True,thường:195 | thuong:17 | thượng:16 | thưởng:9,True
+Sadness,9,nhưng,2.7941,nhung,986.0,0.5394,0.4606,1.124,4.0,True,những:806 | nhung:31 | nhúng:5,True
+Sadness,10,em,2.6077,em,1957.0,0.9924,0.0076,0.071,3.0,False,ẻm:10 | êm:5,True
+Sadness,11,mắt,2.5775,mat,258.0,0.2157,0.7843,1.806,7.0,True,mặt:469 | mất:419 | mát:22 | mạt:12 | mật:10 | mat:6,True
+Sadness,12,nhớ,2.5351,nho,267.0,0.4172,0.5828,1.931,8.0,True,nhỏ:236 | nhờ:82 | nhỡ:15 | nho:14 | nhở:12 | nhổ:10 | nhó:4,True
+Sadness,13,năm,2.5018,nam,496.0,0.4526,0.5474,1.415,5.0,True,nam:501 | nằm:83 | nắm:13 | nấm:3,True
+Sadness,14,rồi,2.492,roi,1564.0,0.9082,0.0918,0.64,7.0,True,rơi:72 | rời:26 | roi:25 | rối:16 | ròi:15 | rỗi:4,True
+Sadness,15,lòng,2.4195,long,261.0,0.6868,0.3132,1.476,7.0,True,lông:49 | long:48 | lồng:10 | lộng:4 | lõng:4 | lỏng:4,True
+Sadness,16,chán,2.3746,chan,90.0,0.2609,0.7391,2.052,7.0,True,chân:162 | chắn:44 | chăn:20 | chặn:17 | chấn:7 | chan:5,True
+Sadness,17,hix,2.1419,hix,10.0,1.0,0.0,-0.0,1.0,False,,True
+Sadness,18,thân,1.9861,than,501.0,0.7568,0.2432,1.178,6.0,True,thần:99 | thận:34 | than:19 | thản:6 | thẩn:3,True
+Sadness,19,chưa,1.9707,chua,481.0,0.8307,0.1693,1.071,7.0,True,chua:25 | chúa:23 | chữa:20 | chừa:13 | chùa:11 | chứa:6,True
+Sadness,20,mình,1.9333,minh,2315.0,0.9369,0.0631,0.34,2.0,True,minh:156,True
+Sadness,21,nước,1.9233,nuoc,355.0,1.0,0.0,-0.0,1.0,True,,True
+Sadness,22,những,1.903,nhung,806.0,0.4409,0.5591,1.124,4.0,True,nhưng:986 | nhung:31 | nhúng:5,True
+Sadness,23,ấy,1.896,ay,433.0,0.9841,0.0159,0.133,3.0,True,ay:4 | ây:3,True
+Sadness,24,xong,1.7765,xong,382.0,1.0,0.0,-0.0,1.0,False,,True
+Sadness,25,còn,1.7636,con,1169.0,0.3999,0.6001,1.058,4.0,True,con:1722 | cơn:25 | côn:7,True
+Sadness,26,cay,1.753,cay,56.0,0.4242,0.5758,1.675,5.0,False,cây:57 | cậy:8 | cày:6 | cầy:5,True
+Sadness,27,giờ,1.7272,gio,673.0,0.9373,0.0627,0.448,5.0,True,gió:20 | giơ:13 | gio:9 | giỗ:3,True
+Sadness,28,tan,1.7263,tan,28.0,0.1233,0.8767,2.641,7.0,False,tận:67 | tàn:39 | tấn:29 | tần:29 | tán:24 | tân:11,True
+Sadness,29,đời,1.7107,doi,370.0,0.4013,0.5987,2.878,16.0,True,đối:114 | đôi:108 | đổi:107 | đợi:53 | đội:46 | đòi:35 | dồi:14 | dõi:14 | dỗi:14 | doi:10 | đói:9 | dối:9 | đồi:8 | dội,True
+Sadness,30,tình,1.7021,tinh,370.0,0.5041,0.4959,1.876,6.0,True,tính:198 | tinh:69 | tỉnh:54 | tĩnh:38 | tịnh:5,True
+Sadness,31,chả,1.6448,cha,214.0,0.6239,0.3761,1.104,4.0,True,cha:121 | chà:5 | chã:3,True
+Sadness,32,hic,1.623,hic,28.0,1.0,0.0,-0.0,1.0,False,,True
+Sadness,33,mất,1.6098,mat,419.0,0.3503,0.6497,1.806,7.0,True,mặt:469 | mắt:258 | mát:22 | mạt:12 | mật:10 | mat:6,True
+Sadness,34,lại,1.603,lai,1351.0,0.9159,0.0841,0.516,4.0,True,lai:77 | lái:40 | lãi:7,True
+Sadness,35,cùng,1.5858,cung,305.0,0.1354,0.8646,0.987,7.0,True,cũng:1819 | cưng:58 | cung:25 | cứng:24 | củng:17 | cúng:4,True
+Sadness,36,vì,1.5757,vi,785.0,0.8387,0.1613,0.897,5.0,True,vị:79 | vi:46 | ví:17 | vĩ:9,True
+Sadness,37,tay,1.5669,tay,246.0,0.8396,0.1604,0.787,3.0,False,tây:30 | tẩy:17,True
+Sadness,38,thất,1.4792,that,96.0,0.0949,0.9051,0.585,5.0,True,thật:901 | that:6 | thắt:5 | thât:4,True
+Sadness,39,một,1.4511,mot,662.0,0.9636,0.0364,0.286,5.0,True,mốt:14 | mọt:5 | môt:3 | mot:3,True
+Sadness,40,lúc,1.4082,luc,601.0,0.7104,0.2896,0.975,4.0,True,lực:231 | lục:9 | luc:5,True
+Sadness,41,và,1.3968,va,1538.0,0.9565,0.0435,0.33,5.0,True,vả:34 | va:24 | vã:6 | vạ:6,True
+Sadness,42,ngày,1.3887,ngay,558.0,0.7804,0.2196,0.823,3.0,True,ngay:149 | ngây:8,True
+Sadness,43,chỉ,1.3758,chi,819.0,0.4466,0.5534,1.473,5.0,True,chị:834 | chi:122 | chí:52 | chì:7,True
+Sadness,44,nay,1.3708,nay,281.0,0.1206,0.8794,0.624,6.0,False,này:2027 | nầy:9 | nấy:5 | nãy:5 | nảy:3,True
+Sadness,45,tôi,1.3521,toi,873.0,0.5762,0.4238,1.799,8.0,True,tới:300 | tội:202 | tối:70 | toi:27 | tồi:24 | tỏi:16 | tơi:3,True
+Sadness,46,điểm,1.3486,diem,170.0,0.9605,0.0395,0.24,2.0,True,diễm:7,True
+Sadness,47,cảm,1.3318,cam,1082.0,0.8075,0.1925,1.219,10.0,True,cám:74 | cam:59 | cầm:43 | cấm:37 | cắm:16 | câm:9 | cẩm:7 | căm:7 | cằm:6,True
+Sadness,48,ước,1.3263,uoc,106.0,0.955,0.045,0.265,2.0,True,uoc:5,True
+Sadness,49,kiếp,1.3233,kiep,45.0,1.0,0.0,-0.0,1.0,True,,True
+Sadness,50,khi,1.3031,khi,952.0,0.9577,0.0423,0.293,4.0,False,khí:33 | khỉ:6 | khì:3,True
+Fear,1,sợ,11.9752,so,592.0,0.6727,0.3273,1.494,7.0,True,số:163 | so:72 | sở:17 | sơ:14 | sổ:12 | sờ:10,True
+Fear,2,hồn,4.7309,hon,81.0,0.0924,0.9076,1.057,6.0,True,hơn:692 | hôn:87 | hon:7 | hỗn:7 | hờn:3,True
+Fear,3,nguy,4.2211,nguy,65.0,1.0,0.0,-0.0,1.0,False,,True
+Fear,4,hiểm,4.1865,hiem,75.0,0.9036,0.0964,0.457,2.0,True,hiếm:8,True
+Fear,5,dám,3.7588,dam,219.0,0.5105,0.4895,2.492,13.0,True,đám:56 | đâm:36 | đấm:36 | dăm:16 | dâm:15 | đảm:15 | đam:12 | đầm:9 | đậm:6 | đắm:3 | đàm:3 | dam:3,True
+Fear,6,chạy,3.7181,chay,197.0,0.7725,0.2275,1.123,4.0,True,chảy:26 | chay:18 | cháy:14,True
+Fear,7,chắc,3.4829,chac,342.0,1.0,0.0,-0.0,1.0,True,,True
+Fear,8,ám,2.7823,am,65.0,0.4062,0.5938,1.902,5.0,True,ấm:46 | âm:36 | ầm:8 | am:5,True
+Fear,9,tao,2.7229,tao,1173.0,0.9164,0.0836,0.507,4.0,False,tạo:78 | táo:18 | tào:11,True
+Fear,10,kinh,2.6926,kinh,160.0,0.8377,0.1623,0.64,2.0,False,kính:31,True
+Fear,11,ngỗng,2.5103,ngong,34.0,0.7234,0.2766,1.287,4.0,True,ngông:5 | ngọng:4 | ngóng:4,True
+Fear,12,xuống,2.4738,xuong,128.0,0.8889,0.1111,0.503,2.0,True,xương:16,True
+Fear,13,hú,2.2849,hu,21.0,0.3231,0.6769,1.988,6.0,True,hư:29 | hu:5 | hủ:4 | hù:3 | hũ:3,True
+Fear,14,ốc,2.1083,oc,35.0,0.5469,0.4531,0.994,2.0,True,óc:29,True
+Fear,15,nhện,2.0313,nhen,36.0,0.878,0.122,0.535,2.0,True,nhen:5,True
+Fear,16,ảnh,2.0126,anh,220.0,0.1558,0.8442,0.839,3.0,True,anh:1141 | ánh:51,True
+Fear,17,dume,2.002,dume,96.0,1.0,0.0,-0.0,1.0,False,,True
+Fear,18,má,1.9185,ma,116.0,0.0445,0.9555,0.492,6.0,True,mà:2409 | ma:70 | mã:5 | mạ:4 | mă:4,True
+Fear,19,rùng,1.9114,rung,9.0,0.1915,0.8085,2.292,5.0,True,rụng:13 | rừng:9 | rưng:9 | rung:7,True
+Fear,20,ghê,1.8751,ghe,169.0,0.7972,0.2028,1.059,5.0,True,ghế:23 | ghé:12 | ghệ:4 | ghẻ:4,True
+Fear,21,trong,1.8675,trong,706.0,0.7182,0.2818,1.158,5.0,False,trọng:209 | trông:49 | trồng:15 | trống:4,True
+Fear,22,bị,1.7836,bi,927.0,0.9459,0.0541,0.372,4.0,True,bi:31 | bí:18 | bỉ:4,True
+Fear,23,đi,1.7813,di,1896.0,0.896,0.104,0.718,8.0,True,di:80 | dị:54 | dí:49 | đĩ:12 | dì:11 | đỉ:7 | dĩ:7,True
+Fear,24,giật,1.7783,giat,32.0,0.8,0.2,0.722,2.0,True,giặt:8,True
+Fear,25,rượt,1.7541,ruot,14.0,0.3684,0.6316,0.949,2.0,True,ruột:24,True
+Fear,26,khiếp,1.7501,khiep,32.0,1.0,0.0,-0.0,1.0,True,,True
+Fear,27,gai,1.7428,gai,14.0,0.0481,0.9519,0.278,2.0,False,gái:277,True
+Fear,28,về,1.7103,ve,698.0,0.7505,0.2495,1.304,7.0,True,vẻ:114 | vệ:45 | vẽ:42 | vé:15 | ve:13 | vê:3,True
+Fear,29,gặp,1.652,gap,322.0,0.9226,0.0774,0.44,3.0,True,gấp:23 | gắp:4,True
+Fear,30,qua,1.6311,qua,416.0,0.1987,0.8013,1.184,5.0,False,quá:1485 | quả:172 | quà:18 | qúa:3,True
+Fear,31,đừng,1.5865,dung,281.0,0.1965,0.8035,2.581,14.0,True,đúng:659 | đứng:108 | dụng:79 | dùng:76 | dung:66 | dừng:34 | dựng:32 | dũng:32 | dưng:25 | đụng:17 | đựng:11 | đùng:5 |,True
+Fear,32,đái,1.5664,dai,20.0,0.0787,0.9213,2.138,8.0,True,đại:118 | dài:71 | dại:16 | đài:13 | dái:6 | đãi:5 | dai:5,True
+Fear,33,ngang,1.5195,ngang,50.0,0.8929,0.1071,0.491,2.0,False,ngẩng:6,True
+Fear,34,bé,1.5049,be,286.0,0.7079,0.2921,1.61,8.0,True,bè:42 | bế:22 | bê:16 | be:13 | bể:10 | bề:8 | bẻ:7,True
+Fear,35,đêm,1.4889,dem,72.0,0.5581,0.4419,1.388,4.0,True,đem:46 | đếm:6 | đệm:5,True
+Fear,36,tim,1.4613,tim,79.0,0.316,0.684,1.165,3.0,False,tìm:158 | tím:13,True
+Fear,37,q,1.4549,q,16.0,1.0,0.0,-0.0,1.0,False,,True
+Fear,38,sởn,1.4529,son,3.0,0.0909,0.9091,0.866,3.0,True,sơn:27 | son:3,True
+Fear,39,lỡ,1.4404,lo,61.0,0.1883,0.8117,2.441,12.0,True,lo:158 | lỗ:21 | lộ:21 | lò:19 | lơ:14 | lờ:12 | lỏ:5 | lọ:4 | lở:3 | lô:3 | ló:3,True
+Fear,40,vãi,1.4368,vai,360.0,0.7273,0.2727,1.196,6.0,True,vài:99 | vai:19 | vải:9 | vại:5 | vái:3,True
+Fear,41,rắn,1.4326,ran,13.0,0.52,0.48,1.469,3.0,True,răn:7 | rần:5,True
+Fear,42,dí,1.4096,di,49.0,0.0232,0.9768,0.718,8.0,True,đi:1896 | di:80 | dị:54 | đĩ:12 | dì:11 | đỉ:7 | dĩ:7,True
+Fear,43,dị,1.3759,di,54.0,0.0255,0.9745,0.718,8.0,True,đi:1896 | di:80 | dí:49 | đĩ:12 | dì:11 | đỉ:7 | dĩ:7,True
+Fear,44,chân,1.3626,chan,162.0,0.4696,0.5304,2.052,7.0,True,chán:90 | chắn:44 | chăn:20 | chặn:17 | chấn:7 | chan:5,True
+Fear,45,cả,1.3586,ca,756.0,0.8086,0.1914,0.973,4.0,True,cá:80 | ca:78 | cà:21,True
+Fear,46,đây,1.3496,day,390.0,0.3542,0.6458,2.385,10.0,True,đấy:350 | dạy:121 | dậy:87 | đầy:79 | dây:17 | đẩy:17 | đáy:16 | dày:12 | day:12,True
+Fear,47,hại,1.3465,hai,70.0,0.2258,0.7742,2.062,5.0,True,hai:133 | hài:51 | hải:31 | hãi:25,True
+Fear,48,bỏ,1.3439,bo,342.0,0.3717,0.6283,2.438,12.0,True,bố:261 | bộ:149 | bồ:45 | bổ:34 | bò:26 | bờ:18 | bo:14 | bó:12 | bơ:9 | bọ:5 | bô:5,True
+Fear,49,tém,1.3404,tem,6.0,1.0,0.0,-0.0,1.0,True,,True
+Fear,50,muốn,1.3393,muon,466.0,0.8412,0.1588,0.887,5.0,True,muộn:48 | muôn:23 | mượn:12 | muon:5,True
+Anger,1,đéo,4.6484,deo,269.0,0.7959,0.2041,0.871,4.0,True,đeo:60 | đèo:5 | dẻo:4,True
+Anger,2,mày,3.9301,may,476.0,0.3165,0.6835,1.765,5.0,True,mấy:686 | may:223 | máy:112 | mây:7,True
+Anger,3,mẹ,3.8752,me,629.0,0.8158,0.1842,1.089,7.0,True,mê:47 | mẽ:43 | me:30 | mẻ:9 | mé:9 | mè:4,True
+Anger,4,lol,3.763,lol,82.0,1.0,0.0,-0.0,1.0,False,,True
+Anger,5,chết,3.4326,chet,249.0,0.9881,0.0119,0.093,2.0,True,chet:3,True
+Anger,6,lồn,3.4084,lon,40.0,0.1238,0.8762,1.387,7.0,True,lớn:236 | lợn:18 | lộn:18 | lòn:5 | lốn:3 | lon:3,True
+Anger,7,dume,3.3214,dume,96.0,1.0,0.0,-0.0,1.0,False,,True
+Anger,8,cho,3.2399,cho,1741.0,0.7975,0.2025,1.179,8.0,False,chó:164 | chỗ:137 | chờ:63 | chớ:28 | chợ:22 | chở:19 | chổ:9,True
+Anger,9,bọn,3.1649,bon,233.0,0.8662,0.1338,0.919,8.0,True,bon:10 | bón:7 | bổn:7 | bòn:3 | bốn:3 | bồn:3 | bôn:3,True
+Anger,10,khốn,2.9027,khon,61.0,0.598,0.402,1.237,3.0,True,khôn:34 | khon:7,True
+Anger,11,tù,2.8878,tu,75.0,0.0398,0.9602,1.823,10.0,True,tự:1073 | từ:480 | tư:112 | tử:72 | tu:31 | tú:22 | tụ:9 | tứ:5 | tủ:4,True
+Anger,12,chó,2.8873,cho,164.0,0.0751,0.9249,1.179,8.0,True,cho:1741 | chỗ:137 | chờ:63 | chớ:28 | chợ:22 | chở:19 | chổ:9,True
+Anger,13,thằng,2.8803,thang,436.0,0.6459,0.3541,1.612,6.0,True,tháng:117 | thẳng:51 | thắng:34 | thang:30 | thăng:7,True
+Anger,14,vào,2.8705,vao,596.0,1.0,0.0,-0.0,1.0,True,,True
+Anger,15,tao,2.7132,tao,1173.0,0.9164,0.0836,0.507,4.0,False,tạo:78 | táo:18 | tào:11,True
+Anger,16,lũ,2.7007,lu,79.0,0.7182,0.2818,1.259,4.0,True,lú:14 | lu:13 | lù:4,True
+Anger,17,giết,2.5954,giet,58.0,1.0,0.0,-0.0,1.0,True,,True
+Anger,18,nạn,2.5178,nan,133.0,0.7074,0.2926,1.572,7.0,True,nản:19 | nan:11 | năn:8 | nần:8 | nặn:5 | nàn:4,True
+Anger,19,con,2.5148,con,1722.0,0.5891,0.4109,1.058,4.0,False,còn:1169 | cơn:25 | côn:7,True
+Anger,20,immm,2.5135,,,,,,,,,False
+Anger,21,cặc,2.468,cac,22.0,0.0388,0.9612,0.297,3.0,True,các:541 | cac:4,True
+Anger,22,mất,2.4604,mat,419.0,0.3503,0.6497,1.806,7.0,True,mặt:469 | mắt:258 | mát:22 | mạt:12 | mật:10 | mat:6,True
+Anger,23,chửi,2.4037,chui,122.0,0.9037,0.0963,0.55,3.0,True,chui:8 | chữi:5,True
+Anger,24,cái,2.3268,cai,1323.0,0.9518,0.0482,0.361,5.0,True,cãi:27 | cải:26 | cai:10 | cài:4,True
+Anger,25,bực,2.2785,buc,15.0,0.3846,0.6154,0.961,2.0,True,bức:24,True
+Anger,26,bố,2.2257,bo,261.0,0.2837,0.7163,2.438,12.0,True,bỏ:342 | bộ:149 | bồ:45 | bổ:34 | bò:26 | bờ:18 | bo:14 | bó:12 | bơ:9 | bọ:5 | bô:5,True
+Anger,27,nó,2.1107,no,1701.0,0.916,0.084,0.662,11.0,True,no:39 | nợ:35 | nọ:25 | nỗ:13 | nộ:10 | nỡ:9 | nở:8 | nổ:8 | nô:5 | nờ:4,True
+Anger,28,dm,1.9495,dm,26.0,0.3291,0.6709,0.914,2.0,False,đm:53,True
+Anger,29,nuôi,1.9435,nuoi,99.0,0.839,0.161,0.637,2.0,True,nuối:19,True
+Anger,30,đập,1.9292,dap,56.0,0.4746,0.5254,1.945,5.0,True,đạp:29 | đáp:16 | dập:9 | đắp:8,True
+Anger,31,dạy,1.9217,day,121.0,0.1099,0.8901,2.385,10.0,True,đây:390 | đấy:350 | dậy:87 | đầy:79 | dây:17 | đẩy:17 | đáy:16 | dày:12 | day:12,True
+Anger,32,đỗ,1.8572,do,81.0,0.0415,0.9585,2.512,19.0,True,đó:1057 | do:211 | đồ:143 | đỡ:128 | độ:86 | đổ:74 | đỏ:35 | dở:34 | dỗ:22 | dơ:20 | đô:16 | dô:14 | đo:11 | đố:7 | đọ:3,True
+Anger,33,cáu,1.7995,cau,8.0,0.0164,0.9836,1.788,7.0,True,câu:235 | cầu:136 | cậu:94 | cẩu:6 | cau:6 | cấu:4,True
+Anger,34,gì,1.7703,gi,1242.0,0.9904,0.0096,0.078,2.0,True,gi:12,True
+Anger,35,cút,1.729,cut,7.0,0.2188,0.7812,1.464,3.0,True,cứt:17 | cụt:8,True
+Anger,36,súc,1.6356,suc,36.0,0.16,0.84,0.759,3.0,True,sức:185 | sục:4,True
+Anger,37,điên,1.602,dien,59.0,0.2287,0.7713,2.034,5.0,True,điện:92 | diễn:67 | diện:34 | điển:6,True
+Anger,38,bây,1.6015,bay,170.0,0.5431,0.4569,1.998,8.0,True,bay:73 | bày:22 | bầy:14 | bậy:12 | bấy:8 | bẫy:8 | bảy:6,True
+Anger,39,đạp,1.5337,dap,29.0,0.2458,0.7542,1.945,5.0,True,đập:56 | đáp:16 | dập:9 | đắp:8,True
+Anger,40,ức,1.5307,uc,26.0,1.0,0.0,-0.0,1.0,True,,True
+Anger,41,xử,1.5234,xu,105.0,0.8678,0.1322,0.772,4.0,True,xù:6 | xứ:5 | xu:5,True
+Anger,42,tử,1.523,tu,72.0,0.0382,0.9618,1.823,10.0,True,tự:1073 | từ:480 | tư:112 | tù:75 | tu:31 | tú:22 | tụ:9 | tứ:5 | tủ:4,True
+Anger,43,dọn,1.5074,don,47.0,0.2,0.8,2.151,8.0,True,đơn:120 | đón:24 | đớn:16 | đồn:10 | đòn:8 | dồn:7 | don:3,True
+Anger,44,vật,1.4813,vat,56.0,0.6154,0.3846,1.521,4.0,True,vất:18 | vặt:11 | vắt:6,True
+Anger,45,cẩu,1.4787,cau,6.0,0.0123,0.9877,1.788,7.0,True,câu:235 | cầu:136 | cậu:94 | cáu:8 | cau:6 | cấu:4,True
+Anger,46,vả,1.4627,va,34.0,0.0211,0.9789,0.33,5.0,True,và:1538 | va:24 | vã:6 | vạ:6,True
+Anger,47,cáo,1.4547,cao,30.0,0.1429,0.8571,0.903,4.0,True,cao:170 | cạo:6 | cào:4,True
+Anger,48,xiên,1.4522,xien,8.0,1.0,0.0,-0.0,1.0,True,,True
+Anger,49,trách,1.4267,trach,129.0,1.0,0.0,-0.0,1.0,True,,True
+Anger,50,hỏi,1.4246,hoi,202.0,0.1845,0.8155,2.504,9.0,True,hối:328 | hồi:195 | hội:178 | hơi:143 | hoi:20 | hôi:15 | hói:11 | hỡi:3,True
+Disgust,1,ngu,4.567,ngu,159.0,0.4833,0.5167,1.366,4.0,False,ngủ:146 | ngữ:17 | ngũ:7,True
+Disgust,2,thằng,2.6632,thang,436.0,0.6459,0.3541,1.612,6.0,True,tháng:117 | thẳng:51 | thắng:34 | thang:30 | thăng:7,True
+Disgust,3,ghét,2.6224,ghet,76.0,1.0,0.0,-0.0,1.0,True,,True
+Disgust,4,tởm,2.481,tom,22.0,0.4074,0.5926,1.74,4.0,True,tóm:19 | tôm:10 | tỏm:3,True
+Disgust,5,nhạt,2.4479,nhat,25.0,0.0407,0.9593,1.119,6.0,True,nhất:488 | nhật:64 | nhát:24 | nhặt:10 | nhat:4,True
+Disgust,6,thì,2.3627,thi,2247.0,0.892,0.108,0.615,4.0,True,thi:157 | thị:108 | thí:7,True
+Disgust,7,đéo,2.3507,deo,269.0,0.7959,0.2041,0.871,4.0,True,đeo:60 | đèo:5 | dẻo:4,True
+Disgust,8,vô,2.3338,vo,319.0,0.5032,0.4968,1.978,11.0,True,vợ:201 | vỡ:30 | võ:25 | vớ:16 | vở:11 | vờ:10 | vo:10 | vơ:5 | vỏ:4 | vỗ:3,True
+Disgust,9,gớm,2.3307,gom,24.0,0.8889,0.1111,0.503,2.0,True,gom:3,True
+Disgust,10,văn,2.2518,van,102.0,0.1192,0.8808,1.863,11.0,True,vẫn:542 | vấn:110 | vân:22 | van:19 | vẩn:17 | vận:17 | vãn:10 | vạn:8 | ván:5 | vàn:4,True
+Disgust,11,bẩn,2.202,ban,34.0,0.0174,0.9826,1.642,9.0,True,bạn:1267 | bản:388 | bán:101 | bàn:70 | ban:48 | bắn:25 | bận:12 | bần:5,True
+Disgust,12,hãm,2.2017,ham,41.0,0.519,0.481,1.848,5.0,True,ham:18 | hàm:9 | hâm:8 | hầm:3,True
+Disgust,13,ác,2.1951,ac,149.0,0.949,0.051,0.29,2.0,True,ac:8,True
+Disgust,14,kém,2.1623,kem,64.0,0.6957,0.3043,1.181,3.0,True,kem:17 | kèm:11,True
+Disgust,15,trâu,2.0441,trau,34.0,0.9189,0.0811,0.406,2.0,True,trầu:3,True
+Disgust,16,toàn,1.8591,toan,254.0,0.9203,0.0797,0.401,2.0,True,toán:22,True
+Disgust,17,vãi,1.8175,vai,360.0,0.7273,0.2727,1.196,6.0,True,vài:99 | vai:19 | vải:9 | vại:5 | vái:3,True
+Disgust,18,xấu,1.8002,xau,217.0,1.0,0.0,-0.0,1.0,True,,True
+Disgust,19,xàm,1.757,xam,15.0,0.4286,0.5714,1.334,3.0,True,xâm:17 | xăm:3,True
+Disgust,20,cục,1.7484,cuc,36.0,0.1006,0.8994,0.622,3.0,True,cực:314 | cức:8,True
+Disgust,21,súc,1.7297,suc,36.0,0.16,0.84,0.759,3.0,True,sức:185 | sục:4,True
+Disgust,22,dạy,1.7012,day,121.0,0.1099,0.8901,2.385,10.0,True,đây:390 | đấy:350 | dậy:87 | đầy:79 | dây:17 | đẩy:17 | đáy:16 | dày:12 | day:12,True
+Disgust,23,làm,1.6861,lam,1563.0,0.6725,0.3275,1.141,6.0,True,lắm:674 | lầm:45 | lam:23 | lâm:16 | lẫm:3,True
+Disgust,24,chó,1.6777,cho,164.0,0.0751,0.9249,1.179,8.0,True,cho:1741 | chỗ:137 | chờ:63 | chớ:28 | chợ:22 | chở:19 | chổ:9,True
+Disgust,25,thấp,1.6149,thap,44.0,1.0,0.0,-0.0,1.0,True,,True
+Disgust,26,óc,1.6143,oc,29.0,0.4531,0.5469,0.994,2.0,True,ốc:35,True
+Disgust,27,phạt,1.612,phat,87.0,0.2451,0.7549,1.589,4.0,True,phát:169 | phật:95 | phat:4,True
+Disgust,28,cái,1.6068,cai,1323.0,0.9518,0.0482,0.361,5.0,True,cãi:27 | cải:26 | cai:10 | cài:4,True
+Disgust,29,xạo,1.5724,xao,14.0,0.5385,0.4615,1.713,4.0,True,xảo:5 | xào:4 | xao:3,True
+Disgust,30,kinh,1.5589,kinh,160.0,0.8377,0.1623,0.64,2.0,False,kính:31,True
+Disgust,31,lol,1.5409,lol,82.0,1.0,0.0,-0.0,1.0,False,,True
+Disgust,32,loạn,1.5084,loan,22.0,0.5946,0.4054,1.346,3.0,True,loan:10 | loàn:5,True
+Disgust,33,tưởng,1.4773,tuong,170.0,0.5414,0.4586,1.729,5.0,True,tương:79 | tượng:40 | tướng:13 | tường:12,True
+Disgust,34,thức,1.4693,thuc,131.0,0.368,0.632,1.284,3.0,True,thực:198 | thúc:27,True
+Disgust,35,điên,1.4628,dien,59.0,0.2287,0.7713,2.034,5.0,True,điện:92 | diễn:67 | diện:34 | điển:6,True
+Disgust,36,đừng,1.456,dung,281.0,0.1965,0.8035,2.581,14.0,True,đúng:659 | đứng:108 | dụng:79 | dùng:76 | dung:66 | dừng:34 | dựng:32 | dũng:32 | dưng:25 | đụng:17 | đựng:11 | đùng:5 |,True
+Disgust,37,đạo,1.4558,dao,52.0,0.3152,0.6848,2.313,6.0,True,dạo:41 | đào:27 | dao:22 | đảo:20 | đáo:3,True
+Disgust,38,người,1.4383,nguoi,1975.0,0.9816,0.0184,0.17,6.0,True,nguoi:16 | ngừoi:8 | ngươi:6 | nguôi:4 | nguời:3,True
+Disgust,39,bảo,1.3995,bao,270.0,0.3709,0.6291,1.732,6.0,True,bao:312 | báo:114 | bạo:18 | bão:10 | bào:4,True
+Disgust,40,đồ,1.3916,do,143.0,0.0733,0.9267,2.512,19.0,True,đó:1057 | do:211 | đỡ:128 | độ:86 | đỗ:81 | đổ:74 | đỏ:35 | dở:34 | dỗ:22 | dơ:20 | đô:16 | dô:14 | đo:11 | đố:7 | đọ:3 ,True
+Disgust,41,chứ,1.3818,chu,683.0,0.5981,0.4019,1.653,7.0,True,chủ:216 | chú:169 | chữ:42 | chu:25 | chừ:4 | chư:3,True
+Disgust,42,dị,1.3698,di,54.0,0.0255,0.9745,0.718,8.0,True,đi:1896 | di:80 | dí:49 | đĩ:12 | dì:11 | đỉ:7 | dĩ:7,True
+Disgust,43,não,1.3528,nao,56.0,0.0573,0.9427,0.424,3.0,True,nào:907 | nao:14,True
+Disgust,44,trẻ,1.3471,tre,227.0,0.9498,0.0502,0.365,4.0,True,tre:5 | trễ:4 | trệ:3,True
+Disgust,45,phá,1.3456,pha,62.0,0.6739,0.3261,0.911,2.0,True,pha:30,True
+Disgust,46,ói,1.3329,oi,7.0,0.0125,0.9875,1.14,5.0,True,ơi:423 | ôi:88 | oi:27 | ối:13,True
+Disgust,47,hư,1.3287,hu,29.0,0.4462,0.5538,1.988,6.0,True,hú:21 | hu:5 | hủ:4 | hù:3 | hũ:3,True
+Disgust,48,loại,1.3108,loai,150.0,0.8876,0.1124,0.507,2.0,True,loài:19,True
+Disgust,49,diễn,1.304,dien,67.0,0.2597,0.7403,2.034,5.0,True,điện:92 | điên:59 | diện:34 | điển:6,True
+Disgust,50,tỏ,1.3018,to,53.0,0.1069,0.8931,2.523,9.0,True,tớ:169 | to:137 | tổ:40 | tô:36 | tờ:27 | tố:25 | tơ:5 | tò:4,True
+Surprise,1,à,5.9103,a,312.0,0.1952,0.8048,1.918,5.0,True,ạ:645 | a:392 | á:246 | ă:3,True
+Surprise,2,sao,4.8088,sao,864.0,1.0,0.0,-0.0,1.0,False,,True
+Surprise,3,vậy,4.6105,vay,958.0,0.9212,0.0788,0.602,8.0,True,vầy:22 | váy:18 | vay:17 | vây:8 | vẫy:6 | vẩy:6 | vạy:5,True
+Surprise,4,ngờ,4.0261,ngo,56.0,0.3889,0.6111,2.511,8.0,True,ngõ:23 | ngộ:22 | ngô:18 | ngó:9 | ngơ:8 | ngỡ:4 | ngớ:4,True
+Surprise,5,này,3.9787,nay,2027.0,0.87,0.13,0.624,6.0,True,nay:281 | nầy:9 | nấy:5 | nãy:5 | nảy:3,True
+Surprise,6,hả,3.567,ha,100.0,0.346,0.654,2.121,6.0,True,hà:71 | ha:58 | hạ:51 | há:5 | hã:4,True
+Surprise,7,nhỉ,3.5416,nhi,282.0,0.8812,0.1188,0.652,4.0,True,nhi:28 | nhí:7 | nhị:3,True
+Surprise,8,đẹp,3.4836,dep,396.0,0.9062,0.0938,0.505,3.0,True,dẹp:35 | dép:6,True
+Surprise,9,wow,3.3754,wow,9.0,1.0,0.0,-0.0,1.0,False,,True
+Surprise,10,nhanh,3.1695,nhanh,104.0,1.0,0.0,-0.0,1.0,False,,True
+Surprise,11,giỏi,2.9478,gioi,98.0,0.3874,0.6126,1.143,3.0,True,giới:147 | giời:8,True
+Surprise,12,luôn,2.8733,luon,1024.0,0.9827,0.0173,0.137,3.0,True,luon:15 | lươn:3,True
+Surprise,13,dữ,2.7586,du,51.0,0.0946,0.9054,2.641,11.0,True,dù:185 | đủ:156 | du:38 | dụ:23 | dự:22 | dư:21 | đụ:18 | đu:13 | đù:7 | đú:5,True
+Surprise,14,ư,2.7567,u,19.0,0.1939,0.8061,1.982,6.0,True,u:46 | ừ:22 | ự:5 | ủ:3 | ụ:3,True
+Surprise,15,thế,2.6452,the,988.0,0.6265,0.3735,1.299,7.0,True,thể:495 | thề:47 | the:24 | thê:14 | thẻ:6 | thé:3,True
+Surprise,16,giống,2.5781,giong,198.0,0.7586,0.2414,0.987,4.0,True,giọng:53 | giông:6 | gióng:4,True
+Surprise,17,được,2.5333,duoc,1250.0,0.9952,0.0048,0.044,2.0,True,duoc:6,True
+Surprise,18,ủa,2.4892,ua,67.0,0.7128,0.2872,1.408,5.0,True,ứa:9 | ùa:9 | ưa:6 | ụa:3,True
+Surprise,19,to,2.3867,to,137.0,0.2762,0.7238,2.523,9.0,False,tớ:169 | tỏ:53 | tổ:40 | tô:36 | tờ:27 | tố:25 | tơ:5 | tò:4,True
+Surprise,20,quá,2.1904,qua,1485.0,0.7092,0.2908,1.184,5.0,True,qua:416 | quả:172 | quà:18 | qúa:3,True
+Surprise,21,á,2.0412,a,246.0,0.1539,0.8461,1.918,5.0,True,ạ:645 | a:392 | à:312 | ă:3,True
+Surprise,22,đấy,1.9789,day,350.0,0.3179,0.6821,2.385,10.0,True,đây:390 | dạy:121 | dậy:87 | đầy:79 | dây:17 | đẩy:17 | đáy:16 | dày:12 | day:12,True
+Surprise,23,thiệt,1.8197,thiet,98.0,0.7424,0.2576,0.823,2.0,True,thiết:34,True
+Surprise,24,viện,1.7436,vien,39.0,0.2216,0.7784,1.222,4.0,True,viên:122 | viễn:11 | vien:4,True
+Surprise,25,y,1.7354,y,87.0,0.1703,0.8297,0.658,2.0,False,ý:424,True
+Surprise,26,ngạc,1.688,ngac,3.0,1.0,0.0,-0.0,1.0,True,,True
+Surprise,27,tinh,1.6724,tinh,69.0,0.094,0.906,1.876,6.0,False,tình:370 | tính:198 | tỉnh:54 | tĩnh:38 | tịnh:5,True
+Surprise,28,cáo,1.6647,cao,30.0,0.1429,0.8571,0.903,4.0,True,cao:170 | cạo:6 | cào:4,True
+Surprise,29,lạ,1.6516,la,69.0,0.0187,0.9813,0.309,4.0,True,là:3543 | la:61 | lá:23,True
+Surprise,30,quảng,1.6146,quang,16.0,0.2424,0.7576,1.813,5.0,True,quang:35 | quăng:6 | quãng:6 | quáng:3,True
+Surprise,31,phim,1.5927,phim,337.0,0.9883,0.0117,0.092,2.0,False,phím:4,True
+Surprise,32,đăng,1.5457,dang,92.0,0.0884,0.9116,2.334,15.0,True,đang:486 | đáng:289 | đặng:32 | đàng:20 | dạng:19 | dàng:18 | đằng:15 | dáng:14 | đắng:13 | đẳng:13 | dang:13 | đảng:10 ,True
+Surprise,33,tây,1.5276,tay,30.0,0.1024,0.8976,0.787,3.0,True,tay:246 | tẩy:17,True
+Surprise,34,bất,1.5112,bat,160.0,0.3181,0.6819,1.439,5.0,True,bắt:295 | bật:22 | bát:19 | bạt:7,True
+Surprise,35,thật,1.4602,that,901.0,0.8903,0.1097,0.585,5.0,True,thất:96 | that:6 | thắt:5 | thât:4,True
+Surprise,36,đỉnh,1.4434,dinh,62.0,0.1211,0.8789,1.999,6.0,True,đình:201 | định:185 | dính:25 | dinh:23 | đinh:16,True
+Surprise,37,chang,1.4195,chang,26.0,0.1226,0.8774,1.302,5.0,False,chẳng:155 | chàng:17 | chăng:11 | chặng:3,True
+Surprise,38,ổng,1.4134,ong,57.0,0.1163,0.8837,0.692,4.0,True,ông:422 | ong:6 | ống:5,True
+Surprise,39,tin,1.3846,tin,376.0,0.9495,0.0505,0.289,2.0,False,tín:20,True
+Surprise,40,tế,1.3702,te,86.0,0.4433,0.5567,2.023,6.0,True,tệ:57 | té:22 | tè:15 | tê:9 | te:5,True
+Surprise,41,võ,1.3183,vo,25.0,0.0394,0.9606,1.978,11.0,True,vô:319 | vợ:201 | vỡ:30 | vớ:16 | vở:11 | vờ:10 | vo:10 | vơ:5 | vỏ:4 | vỗ:3,True
+Surprise,42,giọng,1.2931,giong,53.0,0.2031,0.7969,0.987,4.0,True,giống:198 | giông:6 | gióng:4,True
+Surprise,43,thể,1.2542,the,495.0,0.3139,0.6861,1.299,7.0,True,thế:988 | thề:47 | the:24 | thê:14 | thẻ:6 | thé:3,True
+Surprise,44,wtf,1.2489,wtf,3.0,1.0,0.0,-0.0,1.0,False,,True
+Surprise,45,quen,1.2259,quen,105.0,0.5738,0.4262,0.984,2.0,False,quên:78,True
+Surprise,46,ơ,1.2218,o,39.0,0.0435,0.9565,1.176,10.0,True,ở:728 | ô:53 | o:38 | ờ:14 | ồ:8 | ổ:5 | ố:4 | ỡ:4 | ò:4,True
+Surprise,47,múa,1.2069,mua,7.0,0.0238,0.9762,1.262,4.0,True,mua:199 | mưa:68 | mùa:20,True
+Surprise,48,váy,1.1959,vay,18.0,0.0173,0.9827,0.602,8.0,True,vậy:958 | vầy:22 | vay:17 | vây:8 | vẫy:6 | vẩy:6 | vạy:5,True
+Surprise,49,xinh,1.1939,xinh,135.0,1.0,0.0,-0.0,1.0,False,,True
+Surprise,50,chời,1.1598,choi,17.0,0.0612,0.9388,1.114,6.0,True,chơi:222 | chối:25 | choi:6 | chổi:4 | chọi:4,True
+Other,1,nên,2.4075,nen,815.0,0.9679,0.0321,0.236,3.0,True,nền:16 | nén:11,True
+Other,2,thôi,2.3752,thoi,837.0,0.7166,0.2834,1.17,7.0,True,thời:269 | thoi:23 | thói:15 | thối:11 | thổi:9 | thòi:4,True
+Other,3,nhiều,2.2967,nhieu,1179.0,0.9283,0.0717,0.416,3.0,True,nhiêu:77 | nhieu:14,True
+Other,4,hỏi,2.0446,hoi,202.0,0.1845,0.8155,2.504,9.0,True,hối:328 | hồi:195 | hội:178 | hơi:143 | hoi:20 | hôi:15 | hói:11 | hỡi:3,True
+Other,5,per,2.0235,per,537.0,1.0,0.0,-0.0,1.0,False,,True
+Other,6,thay,2.012,thay,128.0,0.0854,0.9146,0.886,5.0,False,thấy:1231 | thầy:132 | thày:4 | thây:3,True
+Other,7,bếp,1.9907,bep,37.0,1.0,0.0,-0.0,1.0,True,,True
+Other,8,đâu,1.9881,dau,763.0,0.4808,0.5192,2.019,10.0,True,đầu:414 | đau:253 | đấu:40 | đậu:36 | dâu:28 | dầu:23 | dấu:16 | dau:11 | dẫu:3,True
+Other,9,nhé,1.8963,nhe,307.0,0.6993,0.3007,1.315,6.0,True,nhẹ:90 | nhể:22 | nhe:9 | nhẽ:8 | nhè:3,True
+Other,10,nào,1.8534,nao,907.0,0.9284,0.0716,0.424,3.0,True,não:56 | nao:14,True
+Other,11,sớm,1.6698,som,93.0,1.0,0.0,-0.0,1.0,True,,True
+Other,12,vị,1.6478,vi,79.0,0.0844,0.9156,0.897,5.0,True,vì:785 | vi:46 | ví:17 | vĩ:9,True
+Other,13,bác,1.6473,bac,199.0,0.7263,0.2737,1.227,4.0,True,bắc:39 | bạc:27 | bậc:9,True
+Other,14,dầu,1.6069,dau,23.0,0.0145,0.9855,2.019,10.0,True,đâu:763 | đầu:414 | đau:253 | đấu:40 | đậu:36 | dâu:28 | dấu:16 | dau:11 | dẫu:3,True
+Other,15,nhỉ,1.5713,nhi,282.0,0.8812,0.1188,0.652,4.0,True,nhi:28 | nhí:7 | nhị:3,True
+Other,16,dùng,1.5703,dung,76.0,0.0531,0.9469,2.581,14.0,True,đúng:659 | đừng:281 | đứng:108 | dụng:79 | dung:66 | dừng:34 | dựng:32 | dũng:32 | dưng:25 | đụng:17 | đựng:11 | đùng:5 ,True
+Other,17,lực,1.5581,luc,231.0,0.273,0.727,0.975,4.0,True,lúc:601 | lục:9 | luc:5,True
+Other,18,có,1.5501,co,3545.0,0.7798,0.2202,1.285,12.0,True,cô:349 | cố:270 | cơ:205 | cổ:60 | co:48 | cờ:23 | cỏ:19 | cỡ:16 | cớ:4 | cỗ:4 | cở:3,True
+Other,19,không,1.5394,khong,2388.0,0.9938,0.0062,0.06,3.0,True,khong:11 | khổng:4,True
+Other,20,bao,1.5161,bao,312.0,0.4286,0.5714,1.732,6.0,False,bảo:270 | báo:114 | bạo:18 | bão:10 | bào:4,True
+Other,21,quan,1.4254,quan,336.0,0.5753,0.4247,1.972,8.0,False,quần:80 | quán:62 | quân:52 | quản:30 | quẩn:14 | quận:6 | quẫn:4,True
+Other,22,mưa,1.4048,mua,68.0,0.2313,0.7687,1.262,4.0,True,mua:199 | mùa:20 | múa:7,True
+Other,23,trường,1.3944,truong,192.0,0.7356,0.2644,1.16,4.0,True,trưởng:45 | trương:17 | truong:7,True
+Other,24,cần,1.3937,can,291.0,0.5927,0.4073,2.27,12.0,True,cẩn:38 | cắn:37 | cân:24 | cản:24 | can:18 | cận:14 | cán:14 | căn:14 | cạn:10 | cặn:4 | cằn:3,True
+Other,25,sau,1.3855,sau,433.0,0.873,0.127,0.688,4.0,False,sâu:46 | sấu:11 | sầu:6,True
+Other,26,đang,1.2657,dang,486.0,0.4669,0.5331,2.334,15.0,True,đáng:289 | đăng:92 | đặng:32 | đàng:20 | dạng:19 | dàng:18 | đằng:15 | dáng:14 | đắng:13 | đẳng:13 | dang:13 | đảng:10 |,True
+Other,27,tỉnh,1.1826,tinh,54.0,0.0736,0.9264,1.876,6.0,True,tình:370 | tính:198 | tinh:69 | tĩnh:38 | tịnh:5,True
+Other,28,chắc,1.1681,chac,342.0,1.0,0.0,-0.0,1.0,True,,True
+Other,29,bằng,1.1662,bang,186.0,0.8774,0.1226,0.771,5.0,True,băng:10 | bảng:7 | bang:5 | bàng:4,True
+Other,30,nè,1.1611,ne,187.0,0.7759,0.2241,1.25,6.0,True,né:21 | nể:11 | nề:9 | ne:8 | nê:5,True
+Other,31,thời,1.1604,thoi,269.0,0.2303,0.7697,1.17,7.0,True,thôi:837 | thoi:23 | thói:15 | thối:11 | thổi:9 | thòi:4,True
+Other,32,là,1.1559,la,3543.0,0.9586,0.0414,0.309,4.0,True,lạ:69 | la:61 | lá:23,True
+Other,33,đổi,1.1489,doi,107.0,0.1161,0.8839,2.878,16.0,True,đời:370 | đối:114 | đôi:108 | đợi:53 | đội:46 | đòi:35 | dồi:14 | dõi:14 | dỗi:14 | doi:10 | đói:9 | dối:9 | đồi:8 | dội,True
+Other,34,giàu,1.1436,giau,66.0,0.88,0.12,0.529,2.0,True,giấu:9,True
+Other,35,xe,1.1371,xe,337.0,0.8939,0.1061,0.553,3.0,False,xế:34 | xé:6,True
+Other,36,hiểu,1.094,hieu,310.0,0.7579,0.2421,1.125,4.0,True,hiếu:46 | hiệu:44 | hieu:9,True
+Other,37,đội,1.082,doi,46.0,0.0499,0.9501,2.878,16.0,True,đời:370 | đối:114 | đôi:108 | đổi:107 | đợi:53 | đòi:35 | dồi:14 | dõi:14 | dỗi:14 | doi:10 | đói:9 | dối:9 | đồi:8 | dộ,True
+Other,38,lắp,1.0795,lap,12.0,0.1622,0.8378,1.78,5.0,True,lập:42 | lặp:11 | lấp:6 | lap:3,True
+Other,39,nắng,1.0764,nang,26.0,0.1126,0.8874,1.889,6.0,True,năng:103 | nặng:78 | nâng:12 | nàng:9 | nẵng:3,True
+Other,40,xô,1.0707,xo,16.0,0.8,0.2,0.722,2.0,True,xò:4,True
+Other,41,ai,1.063,ai,794.0,0.9566,0.0434,0.258,2.0,False,ái:36,True
+Other,42,đừng,1.0286,dung,281.0,0.1965,0.8035,2.581,14.0,True,đúng:659 | đứng:108 | dụng:79 | dùng:76 | dung:66 | dừng:34 | dựng:32 | dũng:32 | dưng:25 | đụng:17 | đựng:11 | đùng:5 |,True
+Other,43,nghĩ,1.0277,nghi,525.0,0.7789,0.2211,1.02,4.0,True,nghỉ:105 | nghi:25 | nghị:19,True
+Other,44,kia,1.0185,kia,218.0,0.8044,0.1956,0.713,2.0,False,kìa:53,True
+Other,45,du,1.0177,du,38.0,0.0705,0.9295,2.641,11.0,False,dù:185 | đủ:156 | dữ:51 | dụ:23 | dự:22 | dư:21 | đụ:18 | đu:13 | đù:7 | đú:5,True
+Other,46,bạn,0.9756,ban,1267.0,0.6497,0.3503,1.642,9.0,True,bản:388 | bán:101 | bàn:70 | ban:48 | bẩn:34 | bắn:25 | bận:12 | bần:5,True
+Other,47,hòa,0.9698,hoa,31.0,0.1265,0.8735,2.736,9.0,True,hoa:73 | hoá:46 | hóa:38 | hoà:25 | họa:13 | hoạ:8 | hỏa:6 | hoả:5,True
+Other,48,bình,0.9698,binh,299.0,0.9645,0.0355,0.251,3.0,True,binh:8 | bính:3,True
+Other,49,dẫn,0.955,dan,50.0,0.1099,0.8901,2.46,12.0,True,dân:166 | đàn:121 | dần:68 | đắn:11 | dạn:11 | đần:8 | dằn:5 | đạn:4 | dán:4 | dặn:4 | đản:3,True
+Other,50,bớt,0.949,bot,52.0,0.8387,0.1613,0.78,3.0,True,bột:7 | bọt:3,True

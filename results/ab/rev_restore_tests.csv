@@ -1,0 +1,13 @@
+test,model,delta,lo,hi,p,p_holm
+gated_vs_standard_clean,cafebert,0.0304,-3.7552,3.949,0.9314,1.0
+gated_vs_restoreall_clean,cafebert,13.4134,8.8801,18.0992,0.0001,0.0012
+gated_vs_restoreall_diac100,cafebert,-1.018,-3.5496,1.4611,0.3609,1.0
+gated_vs_standard_clean,xlmr,0.0489,-1.4831,1.5715,0.9346,1.0
+gated_vs_restoreall_clean,xlmr,12.4068,8.9525,15.9794,0.0001,0.0012
+gated_vs_restoreall_diac100,xlmr,-1.6733,-4.0414,0.5967,0.1487,1.0
+gated_vs_standard_clean,phobert,0.1723,-2.1157,2.4232,0.8569,1.0
+gated_vs_restoreall_clean,phobert,14.6968,10.3861,18.9333,0.0001,0.0012
+gated_vs_restoreall_diac100,phobert,-1.7545,-4.2087,0.5044,0.1351,1.0
+gated_vs_standard_clean,visobert,-0.0135,-1.73,1.6947,0.9818,1.0
+gated_vs_restoreall_clean,visobert,12.4245,8.3914,16.4511,0.0001,0.0012
+gated_vs_restoreall_diac100,visobert,-1.036,-3.0232,0.9379,0.276,1.0

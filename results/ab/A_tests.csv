@@ -1,0 +1,16 @@
+crit,model,delta,ci_lo,ci_hi,p,accN_A,accC_A,accN_std,accC_std,p_holm,sig
+A1_clean_vs_standard,xlmr,-1.9863,-5.6639,1.5238,0.2678,,,,,1.0,False
+A2_diac100_vs_PS,xlmr,3.8155,0.5497,7.2118,0.0253,,,,,0.1771,False
+A3_diac75_vs_augmix,xlmr,11.14,7.5637,14.7134,0.0001,,,,,0.0015,True
+A3_diac100_vs_augmix,xlmr,15.8043,11.2667,20.5075,0.0001,,,,,0.0015,True
+A4_natural_gap_vs_standard,xlmr,-13.9243,-23.9243,-3.8534,0.0068,43.2624,53.3097,31.4894,55.461,0.0612,False
+A1_clean_vs_standard,phobert,1.5776,-1.733,4.8226,0.3373,,,,,1.0,False
+A2_diac100_vs_PS,phobert,4.0024,1.0099,6.993,0.0094,,,,,0.0752,False
+A3_diac75_vs_augmix,phobert,10.474,6.3778,14.6095,0.0001,,,,,0.0015,True
+A3_diac100_vs_augmix,phobert,15.5094,11.4894,19.383,0.0001,,,,,0.0015,True
+A4_natural_gap_vs_standard,phobert,-2.2459,-12.5532,8.3694,0.6753,40.0709,55.9102,38.5106,56.5957,1.0,False
+A1_clean_vs_standard,visobert,-1.1338,-4.5478,2.0706,0.481,,,,,1.0,False
+A2_diac100_vs_PS,visobert,-1.1539,-4.7573,2.3576,0.5139,,,,,1.0,False
+A3_diac75_vs_augmix,visobert,6.7572,2.8113,10.8734,0.0018,,,,,0.018,True
+A3_diac100_vs_augmix,visobert,7.7778,4.0124,11.7722,0.0003,,,,,0.0033,True
+A4_natural_gap_vs_standard,visobert,-0.0236,-9.3381,9.0786,0.9965,40.4255,53.6643,39.1489,52.4113,1.0,False

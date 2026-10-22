@@ -1,0 +1,5 @@
+level,model,outcome,term,estimate,ci_lo,ci_hi,p
+syllable,cafebert,dMI,emo:amb,-0.01057,-0.03242,0.01129,0.34338
+syllable,xlmr,dMI,emo:amb,0.02261,0.00208,0.04315,0.03089
+syllable,phobert,dMI,emo:amb,0.00781,-0.00953,0.02515,0.37755
+syllable,visobert,dMI,emo:amb,0.00744,-0.00757,0.02246,0.33112

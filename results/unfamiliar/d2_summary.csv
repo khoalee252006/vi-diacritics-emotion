@@ -1,0 +1,4 @@
+model,MF1_tgt_emo_test,MF1_tgt_emo_diac100,MF1_tgt_rand_test,MF1_tgt_rand_diac100,MF1_standard_test,MF1_standard_diac100,dp_Wemo_tgt_emo,dp_Wrand_tgt_emo,dp_other_tgt_emo,dp_Wemo_tgt_rand,dp_Wrand_tgt_rand,dp_other_tgt_rand
+xlmr,61.323,29.534,61.782,27.767,62.419,28.52,1.602,1.309,2.84,6.664,-0.216,2.437
+phobert,62.109,27.841,60.902,22.308,60.391,20.34,3.046,2.974,2.788,6.393,0.763,2.281
+visobert,57.948,36.601,57.725,31.337,58.721,31.735,0.776,0.881,1.524,6.135,-0.986,0.924

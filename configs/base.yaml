@@ -1,0 +1,209 @@
+# Cấu hình chính. Đường dẫn tương đối được giải theo thư mục gốc dự án (thư mục cha của configs/).
+paths:
+  vsmec_dir: dataset/UIT-VSMEC/UIT-VSMEC
+  vsmec_files: {train: train_nor_811.xlsx, valid: valid_nor_811.xlsx, test: test_nor_811.xlsx}
+  vigo_derived_dir: dataset/derived
+  vigo_label_dict: dataset/github/ViGoEmotions/corpus/label_dict.json
+  emoji_dict: dataset/github/ViGoEmotions/model/docs/emojis.json
+  teencode_dict: dataset/github/ViGoEmotions/model/docs/teencode4.txt
+  nsw_dict: dataset/github/vn-nsw-dictionary/vi-nsw-dict.json
+  patterns: dataset/github/ViGoEmotions/model/docs/patterns.json
+  vncorenlp_dir: tools/vncorenlp
+  results_dir: results
+  noise_dir: results/noise
+  cache_dir: results/cache
+  hf_cache: null            # null = mặc định của huggingface (HF_HOME)
+
+labels: [Enjoyment, Sadness, Fear, Anger, Disgust, Surprise, Other]
+seeds: [42, 43, 44, 45, 46]
+device: auto                # auto | cuda | cpu
+limit_n: null               # số dòng tối đa mỗi split (chỉ dùng cho smoke test)
+
+preprocess:
+  lowercase: true           # VSMEC _nor_811 đã viết thường; viết thường ViGoEmotions cho đồng nhất
+  use_patterns: false       # true: P1 chạy thêm patterns.json (vd. "kkkk" -> "haha") trước khi đổi emoji
+  vncorenlp_url: https://raw.githubusercontent.com/vncorenlp/VnCoreNLP/master/
+  java_heap: -Xmx2g
+
+noise:
+  seed: 2026
+  levels:
+    diac: [0.25, 0.5, 0.75, 1.0]   # tỉ lệ số từ có dấu trong câu
+    teen: [0.1, 0.2, 0.3]          # tỉ lệ số token
+    typo: [0.1, 0.2, 0.3]          # tỉ lệ số token
+    emoji: [text, remove]          # "keep" = test sạch
+
+# Mosbach et al. (2021): AdamW có bias correction, lr 2e-5, 20 epoch, warmup 10% rồi giảm tuyến tính (tr.8);
+# batch 16, weight decay 0.01, clip gradient (thiết lập mặc định, tr.4).
+train:
+  max_len: 128
+  batch_size: 16
+  eval_batch_size: 64
+  lr: 2.0e-5
+  epochs: 20
+  warmup_ratio: 0.1
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+  betas: [0.9, 0.999]
+  eps: 1.0e-8
+  fp16: true
+
+# revision = commit trên Hugging Face, kiểm tra ngày 2026-10-09.
+models:
+  phobert:
+    hf: vinai/phobert-base
+    revision: 01daacda68afe13d83023d16ec647239e344a1e6
+    segment: true           # tách từ VnCoreNLP
+    max_seeds: 5
+  xlmr:
+    hf: FacebookAI/xlm-roberta-base   # tên cũ "xlm-roberta-base" chuyển hướng về repo này
+    revision: e73636d4f797dec63c3081bb6ed5c7b0bb3f2089
+    max_seeds: 5
+  visobert:
+    hf: uitnlp/visobert
+    revision: 196a62afad9cbe4f52a54aabad828b13f0eec59a
+    max_seeds: 5
+  cafebert:
+    hf: uitnlp/CafeBERT
+    revision: af76fcf2a04096b2b54b348a3e4eb48253c93c5d
+    max_seeds: 5             # 2026-10-21 (nhận xét thầy): thêm seed 45–46 cho rq1/strip/dual; phân tích cũ vẫn dùng 42–44 (src/ambiguity.MODELS)
+    train: {eval_batch_size: 32}
+
+tfidf:
+  max_seeds: 5
+  max_iter: 5000
+  grid:
+    ngram_range: [[1, 1], [1, 2], [1, 3]]
+    min_df: [1, 2]
+    sublinear_tf: [true]
+    C: [0.1, 0.3, 1.0, 3.0, 10.0]
+    class_weight: [null, balanced]
+
+experiments:
+  rq1:
+    train_data: vsmec
+    train_noise: [none]
+    classic_models: [lr, svm]
+    plm_models: [phobert, xlmr, visobert, cafebert]
+    preps: [P0, P1]
+    eval_noise: true        # chấm luôn trên các tập test nhiễu (RQ3, không train thêm)
+    eval_dictnorm: true     # thêm bản __dn (chuẩn hóa từ điển lúc test, cách bù 1) cho model P0
+    eval_vigo: true         # chấm luôn trên vigo_new_test (RQ4)
+    keep_checkpoint: true
+  rq3_aug:                  # cách bù 2: augment hỗn hợp nhiễu
+    train_data: vsmec
+    train_noise: [mix]
+    classic_models: [lr, svm]
+    plm_models: [phobert, xlmr, visobert, cafebert]
+    preps: [P0]
+    eval_noise: true
+    eval_dictnorm: false
+    eval_vigo: false
+    keep_checkpoint: false
+  rq3_matrix:               # train trên nhiễu X, test trên nhiễu Y
+    train_data: vsmec
+    train_noise: [diac, teen, typo, emoji]
+    classic_models: [lr]
+    plm_models: [visobert, phobert]
+    preps: [P0]
+    max_seeds: 3
+    eval_noise: true
+    eval_dictnorm: false
+    eval_vigo: false
+    keep_checkpoint: false
+  rq4_ceiling:              # mốc trần trong miền: train trên vigo_new_train
+    train_data: vigo_new
+    train_noise: [none]
+    classic_models: [lr, svm]
+    plm_models: [phobert, xlmr, visobert, cafebert]
+    preps: [P0]
+    max_seeds: 3
+    keep_checkpoint: false
+  strip:                    # model "không dấu" (PS) cho phương pháp gating theo tỉ lệ dấu; ghép với model rq1 P0 cùng seed
+    train_data: vsmec       # cùng công thức train với rq1; train/valid/test đều được bỏ hết dấu trong prepare()
+    train_noise: [none]
+    classic_models: [lr, svm]
+    plm_models: [visobert, phobert, xlmr, cafebert]
+    preps: [PS]
+    eval_noise: true        # chấm trên mọi tập nhiễu (sau khi bỏ hết dấu) để kết hợp offline
+    eval_dictnorm: false
+    eval_vigo: true
+    keep_checkpoint: false
+
+  tgt:                      # D2 (review/09_thiet_ke_dang_la.md): phơi nhiễm dấu có mục tiêu; nhân đôi train, bản sao bỏ dấu đúng các từ thuộc W
+    train_data: vsmec
+    train_noise: [tgt_emo, tgt_rand]   # W_emo / W_rand trong results/unfamiliar/W_*.txt (ghép cặp theo tần suất, 3,928 vs 3,927 token)
+    classic_models: []
+    plm_models: [xlmr, phobert, visobert]
+    preps: [P0]
+    max_seeds: 3
+    eval_noise: true
+    eval_dictnorm: false
+    eval_vigo: true
+    keep_checkpoint: true    # để chấm 7,074 biến thể một âm tiết (src/tgt_eval.py)
+
+  dual:                     # Phương pháp A (review/12_thiet_ke_phuong_phap_AB.md): huấn luyện hai góc nhìn
+    train_data: vsmec
+    train_noise: [dual, dualkl]
+    classic_models: []
+    plm_models: [xlmr, phobert, visobert, cafebert]   # review/17 E1: thêm seed 45–46 và CafeBERT (max_seeds riêng = 3)
+    preps: [P0]
+    max_seeds: 5
+    eval_noise: true
+    eval_dictnorm: false
+    eval_vigo: true
+    keep_checkpoint: true    # chấm valid nhiễu + tập mất dấu tự nhiên sau khi train
+  dual_tfidf:               # nhận xét thầy 2026-10-21: TF-IDF + nhân đôi (bản sao bỏ hết dấu); TF-IDF tất định -> 1 seed
+    train_data: vsmec
+    train_noise: [dual]
+    classic_models: [lr, svm]
+    plm_models: []
+    preps: [P0]
+    max_seeds: 1
+    eval_noise: true
+    eval_dictnorm: false
+    eval_vigo: true
+    keep_checkpoint: false
+  dual_lam:                 # review/17 E2: độ nhạy λ của dual-view (chỉ mô tả; phương pháp chính giữ λ = 1)
+    train_data: vsmec
+    train_noise: [dualkl_l0.5, dualkl_l2]
+    classic_models: []
+    plm_models: [xlmr, phobert, visobert]
+    preps: [P0]
+    max_seeds: 3
+    eval_noise: true
+    eval_dictnorm: false
+    eval_vigo: true
+    keep_checkpoint: true    # để ab_score chấm valid nhiễu + tập tự nhiên
+  strip_ck:                 # Phương pháp B: PS như `strip` nhưng LƯU checkpoint (để chấm tập mất dấu tự nhiên)
+    train_data: vsmec
+    train_noise: [none]
+    classic_models: []
+    plm_models: [xlmr, phobert, visobert]
+    preps: [PS]
+    max_seeds: 3
+    eval_noise: true
+    eval_dictnorm: false
+    eval_vigo: true
+    keep_checkpoint: true
+
+rq4:
+  train_mapping: a          # ánh xạ dùng để train mốc trần
+  mapping:                  # project_knowledge.md §3 (GoEmotions §5.1); disapproval để ngoài (lựa chọn 4a)
+    Anger: [anger, annoyance]
+    Disgust: [disgust]
+    Fear: [fear, nervousness]
+    Enjoyment: [amusement, excitement, joy, love, desire, optimism, caring, pride, admiration, gratitude, relief, approval]
+    Sadness: [sadness, disappointment, embarrassment, grief, remorse]
+    Surprise: [surprise, realization, confusion, curiosity]
+    Other: [neutral]
+
+stats:
+  n_boot: 10000
+  seed: 12345
+  alpha: 0.05
+
+# Ước lượng thời gian (phút/run) khi CHƯA có run nào đo được. Đây là số đoán cho 1 GPU 24 GB, chưa đo.
+# Khi đã có run xong, `python -m src.utils estimate` dùng thời gian đo thật.
+estimate_minutes: {lr: 1, svm: 1, phobert: 8, xlmr: 9, visobert: 7, cafebert: 25}
+estimate_size_factor: {rq1: 1.0, rq3_aug: 1.0, rq3_matrix: 1.0, rq4_ceiling: 2.0}

@@ -1,0 +1,13 @@
+# Smoke test D2 trên laptop: 64 câu/split, 1 epoch, chỉ ViSoBERT. Xóa results_smoke_d2/ sau khi xem.
+_base_: base.yaml
+paths:
+  results_dir: results_smoke_d2
+  noise_dir: results_smoke_d2/noise
+  cache_dir: results/cache
+limit_n: 64
+train:
+  epochs: 1
+experiments:
+  tgt:
+    plm_models: [visobert]
+    max_seeds: 1

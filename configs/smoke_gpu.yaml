@@ -1,0 +1,17 @@
+# Smoke test trên GPU vast.ai: như smoke.yaml nhưng chạy đủ 4 PLM với fp16, để kiểm tra VRAM (nhất là CafeBERT)
+# và đo thời gian trước khi chạy thật. Xóa results_smoke_gpu/ sau khi xem xong.
+_base_: smoke.yaml
+
+paths:
+  results_dir: results_smoke_gpu
+  noise_dir: results_smoke_gpu/noise
+  cache_dir: results_smoke_gpu/cache
+
+device: cuda
+
+train:
+  fp16: true
+
+experiments:
+  rq1:
+    plm_models: [visobert, phobert, xlmr, cafebert]

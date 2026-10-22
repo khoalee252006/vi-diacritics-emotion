@@ -1,0 +1,10 @@
+model,test,delta,ci_lo,ci_hi,p,p_holm,sig
+xlmr,P1_dp_Wemo_emo_minus_rand,-5.0618,-8.3718,-2.006,0.0035,0.0315,True
+xlmr,P2_diac100_emo_minus_rand,1.7671,-2.6267,6.119,0.427,1.0,False
+xlmr,P3_clean_emo_minus_standard,-1.0962,-4.0876,1.75,0.448,1.0,False
+phobert,P1_dp_Wemo_emo_minus_rand,-3.3469,-6.6545,0.174,0.0545,0.2724,False
+phobert,P2_diac100_emo_minus_rand,5.5329,0.3084,10.4062,0.0317,0.1902,False
+phobert,P3_clean_emo_minus_standard,1.7175,-1.3692,4.7798,0.2698,1.0,False
+visobert,P1_dp_Wemo_emo_minus_rand,-5.3591,-9.1389,-2.0098,0.0065,0.052,False
+visobert,P2_diac100_emo_minus_rand,5.2646,1.063,9.4898,0.0149,0.1043,False
+visobert,P3_clean_emo_minus_standard,-0.7723,-4.0051,2.5531,0.6325,1.0,False

@@ -1,0 +1,15 @@
+# Chạy lại toàn bộ với 30 epoch, kết quả để RIÊNG ở results_e30/ (không ghi đè kết quả 20 epoch trong results/).
+# Đổi số epoch thì lịch learning rate (warmup 10% + giảm tuyến tính) cũng giãn theo, nên phải chạy lại mọi run PLM.
+#   CONFIG=configs/e30.yaml bash run_all.sh 2>&1 | tee -a run_e30.log
+_base_: base.yaml
+
+paths:
+  results_dir: results_e30
+  noise_dir: results_e30/noise   # sinh lại (seed cố định 2026 nên giống hệt results/noise)
+  cache_dir: results/cache       # dùng lại cache tách từ VnCoreNLP của lần chạy 20 epoch
+
+train:
+  epochs: 30
+
+# Ước lượng thời gian: số phút/run đo ở lần 20 epoch × 1.5.
+estimate_minutes: {lr: 0.2, svm: 0.1, phobert: 9, xlmr: 13, visobert: 9, cafebert: 23}
